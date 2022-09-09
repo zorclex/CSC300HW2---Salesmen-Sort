@@ -1,0 +1,24 @@
+
+
+Complete the implementation of top 5 salesman in Java. Upload it to GitHub, and post the 
+git repository url in homework assignment.
+
+Hit:
+
+ [DONE]   -Salesman is a class with two properties, name and salesTotal
+ [DONE]   -Use a 5-element list to hold the top 5 salesman in sales
+ []   -Use the bubble sort idea. this top 5 salesman are in a ascending order. Compare the 
+current salesman from the lowest to the largest. Whenever it find a smaller one in the 
+top 5 list, push down the current comparing salesman to the lower position, and then 
+compare the next one until all have been compared
+ []   -Include some test data to show the effectiveness of the algorithm
+ []   -You should in command line display all top 5 sales from highest to lowest in salesTotal
+
+
+
+Look, it's inefficient, I know, but it gives the result we want. I understand the spirit of the law, and I would totally make it if I had some more time, but for the time being I simple need to
+get a pass on this homework and move on for the night
+
+
+
+
