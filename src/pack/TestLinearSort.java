@@ -73,7 +73,7 @@ public class TestLinearSort {
 //			currentCharToCompare = str.charAt(i);
 			for(int j = i + 1; j < str.length(); j++)
 			{
-				if (str.charAt(i) == str.charAt(j))
+				if (str.toUpperCase().charAt(i) == str.toUpperCase().charAt(j))
 				{
 //					isSame = true;
 					return false;
