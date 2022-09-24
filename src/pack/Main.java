@@ -45,12 +45,16 @@ public class Main {
 //		System.out.println(TestLinearSort.binarySearch_int(nums, 7));
 		
 		
-		for (int i = 0; i < nameList.length; i++)
-		{
-			System.out.println("Does the name " + nameList[i] + " have all unique characters? : " + TestLinearSort.isAllUniqueChar(nameList[i]));
-			
-		}
+//		for (int i = 0; i < nameList.length; i++)
+//		{
+//			System.out.println("Does the name " + nameList[i] + " have all unique characters? : " + TestLinearSort.isAllUniqueChar(nameList[i]));
+//			
+//		}
 		
+		String strToSearch = "How much wood could a woodchuck chuck if a woodchuck could chuck wood?";
+		String keyToSearch = "wood";
+		int numWords = 	HW4.uniqueSubStringCount(strToSearch, keyToSearch);
+		System.out.println("the number of a particular words is: " + numWords);
 //		
 //		//binary search
 //		int sortedNums[] = {1, 2, 3, 4, 6, 7, 8, 9, 65};
