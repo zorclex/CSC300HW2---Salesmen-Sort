@@ -21,6 +21,7 @@ public class HW4 {
 		}
 //		System.out.println("returning uniqueSubStringCount");
 		return uniqueOccurences;
+		//cabbage
 	}
 	
 	//compares two strings and returns true if they are the same or not
