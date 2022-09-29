@@ -59,15 +59,16 @@ public class Main {
 //		int binaryFoundNum = BinarySearchExample.binarySearch(sortedNums, 3);
 //		System.out.println("the number looked for is found at position " + binaryFoundNum);
 //		
-		int[][] acorn = 
-			{
-				{0,1,3},
-				{4,5,6},
-				{7,8,9}
-			};
-//		System.out.println(HW5.binarySearchForGrid(acorn, 4));
-		System.out.println("found here: " + HW5.binarySearch2(acorn, 7));
+//		int[][] acorn = 
+//			{
+//				{0,1,3},
+//				{4,5,6},
+//				{7,8,9}
+//			};
+////		System.out.println(HW5.binarySearchForGrid(acorn, 4));
+//		System.out.println("Target found here: " + HW5.binarySearch2(acorn, 7) + "! Deploying Drones.");
 		
+		codingForBiblicalThings.diciplesTimeToCompletion();
 		
 		
 	}

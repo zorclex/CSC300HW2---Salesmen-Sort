@@ -52,16 +52,16 @@ public class HW5 {
 	{
 		//returns the String coordinates of key in the array arr. mid is the position, while key itself is the value.
 		int low = 0;
-		int high = arrY.length;
+		int high = arrY.length; //should be -1?
 		int mid = (low + high) /2;
 		int innerCord = 0;
 		
-		while (true) 
+		while (true) //low > high should serve better?
 		{
 			if (arrY[mid][0] > key) //check the lowest of mid against key to see if it's too high
 			{
 				high = mid -1;
-				mid = (low + high) /2;
+				mid = (low + high) /2; //should be done once at the start of the loop
 			}
 			else if (arrY[mid][arrY[mid].length-1] < key) //check the highest of mid against key to see if it's too low
 			{
@@ -70,7 +70,7 @@ public class HW5 {
 			}
 			else
 			{
-				innerCord = binarySearch(arrY[mid], key);
+				innerCord = binarySearch(arrY[mid], key); //this could have simply been in the return statement, and doesn't need it's own variable
 				return (mid +", " + innerCord);
 			}
 		}
